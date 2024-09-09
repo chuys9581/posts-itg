@@ -8,8 +8,8 @@
 
 function obtener_todas_publicaciones_airtable() {
     $api_key = 'aqui va la api key de quien use esta repo by Jesus Jimenez';
-    $url_posts = 'https://api.airtable.com/v0/appzmB3zBmwWkhnkn/Posts';
-    $url_usuarios = 'https://api.airtable.com/v0/appzmB3zBmwWkhnkn/Usuarios';
+    $url_posts = 'https://api.airtable.com/v0/clave posts/Posts';
+    $url_usuarios = 'https://api.airtable.com/v0/clave de users/Usuarios';
 
     // Obtener usuarios desde Airtable
     $response_usuarios = wp_remote_get($url_usuarios, array(
