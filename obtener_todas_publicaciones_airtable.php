@@ -7,7 +7,7 @@
  */
 
 function obtener_todas_publicaciones_airtable() {
-    $api_key = 'patv59bjnbEGUFZG8.cd0546b6e89b9368307894b52c97ef81268d5253071ed72b4d94d955b441b576';
+    $api_key = 'aqui va la api key de quien use esta repo by Jesus Jimenez';
     $url_posts = 'https://api.airtable.com/v0/appzmB3zBmwWkhnkn/Posts';
     $url_usuarios = 'https://api.airtable.com/v0/appzmB3zBmwWkhnkn/Usuarios';
 
