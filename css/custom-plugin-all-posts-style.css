@@ -1,0 +1,53 @@
+main{
+    margin-top: -10rem;
+}
+
+.all-user-post{
+    margin-left: 15rem;
+    text-align: center;
+}
+
+.post-content {
+    border-bottom: solid 1px #e4e4e4 ;
+    margin-bottom: 1rem; /* Espacio adicional si es necesario */
+    display: inline-block; /* Ajustar el ancho al contenido */
+    width: auto; /* Asegurarse de que el contenedor se ajuste al ancho del contenido */
+}
+
+.user-avatar2{
+    width: 60px; /* Ajusta el tamaño según sea necesario */
+    height: 60px; /* Debe ser igual al ancho para mantener la forma circular */
+    border-radius: 50%; /* Esto hace que la imagen sea circular */
+    object-fit: cover;
+}
+
+.user-post2{
+    position: relative;
+    display: inline-block;
+    width: 400px; 
+    height: 400px;
+}
+
+.all-user-post-image2{
+    width: 100%;  
+    height: 100%; 
+    object-fit: cover; 
+    display: block;
+}
+
+.user-info{
+    display: flex;
+}
+
+.user-avatar-container{
+    margin-right: 1rem;
+}
+
+.user-name-container{
+    margin-top: 1.2rem;
+}
+
+.text-all-posts{
+    text-align: center;
+    margin-left: 15rem;
+}
